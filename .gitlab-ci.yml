@@ -10,9 +10,9 @@ pages:
   environment: production
   script:
     - mkdir .public
-    #- cp -r * .public
-    #- rm -rf public
-    #- mv .public public
+    - cp -r * .public1
+    - rm -rf public
+    - mv .public public
   artifacts:
     paths:
       - public
